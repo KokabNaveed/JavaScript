@@ -1,6 +1,6 @@
 // the operators in js behave same as in other languages however we'll learn new operator (===) here
 
-//addition
+// addition (+)
 
 num1 = 14 ;
 num2 = 7;
@@ -15,7 +15,7 @@ stringsum=firstName+lastName; // addition of strings -> concatenation
 
 console.log("Addition result of two strings is",stringsum);
 
-//subtraction
+// subtraction (-)
 
 sub = num1 - num2; // sub of two nums
 
@@ -23,17 +23,17 @@ console.log("Subtraction result of two numbers is",sub);
 
 // sub2="hello"-"hell"; // subtraction of two strings is not possible
 
-//multiplication
+//multiplication (*)
 
 mul = num1 * num2;
 console.log("Multiplication result of two numbers is",mul);
 
-//division
+//division (/)
 
 div = num1 / num2;
 console.log("Division result of two numbers is",div);
 
-//modulus
+//modulus (%)
 
 mod = num2 % 2; // num2 = 7
 console.log("Modulus result is",mod);
@@ -45,3 +45,9 @@ console.log(`Using (==) "5" and 5 are equal in js`,("5"==5))
 // triple equal to (===) -> it compares both value and dataType
 
 console.log(`Using (===) "5" and 5 are equal in js`,("5"===5))
+
+
+//power (**)
+
+power = num1 ** num2;
+console.log(num1,`raise to the power`,num2,"is",power);
